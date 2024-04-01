@@ -2,23 +2,113 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000950
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+about:
+- {}
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: We thank participant T5 and his caregivers for their generously volunteered
+  time and effort as part of the BrainGate2 pilot clinical trial; B. Davis, K. Tsou
+  and S. Kosasih for administrative support.
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: 'Karpowicz, Brianna (2024) FALCON Benchmark H2: Human Handwriting iBCI (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000950/draft'
+citation: 'Fan, Chaofei; Hahn, Nick; Kamdar, Foram; Avansino, Donald; Wilson, Guy;
+  Hochberg, Leigh; Shenoy, Krishna V; Henderson, Jaime; Willett, Frank (2024) FALCON
+  Benchmark H2: Human Handwriting iBCI (Version draft) [Data set]. DANDI archive.
+  https://dandiarchive.org/dandiset/000950/draft'
 contributor:
 - affiliation: []
   email: brianna.karpowicz@emory.edu
-  includeInCitation: true
-  name: Karpowicz, Brianna
+  includeInCitation: false
+  name: Karpowicz, Brianna M
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- includeInCitation: true
+  name: Fan, Chaofei
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  schemaKey: Person
+- includeInCitation: true
+  name: Hahn, Nick
+  roleName:
+  - dcite:DataCollector
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Kamdar, Foram
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  schemaKey: Person
+- includeInCitation: true
+  name: Avansino, Donald
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  schemaKey: Person
+- includeInCitation: true
+  name: Wilson, Guy
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  schemaKey: Person
+- includeInCitation: true
+  name: Hochberg, Leigh
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Shenoy, Krishna V
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Henderson, Jaime
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Willett, Frank
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- awardNumber: nos. N2864C and A2295R
+  includeInCitation: false
+  name: Office of Research and Development, Rehabilitation R&D Service, Department
+    of Veterans Affairs
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: Wu Tsai Neurosciences Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: Howard Hughes Medical Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: Larry and Pamela Garlick
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: Simons Foundation Collaboration on the Global Brain
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: NIH-NIDCD U01DC017844, NIH-NIDCD R01DC014034, NIH-NIBIB R01EB028171
+  includeInCitation: false
+  name: National Institute of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-04-01T13:56:42.807827+00:00'
 description: 'The dataset contains neural activity from participant T5, who gave informed
   consent and was enrolled in the BrainGate2 Neural Interface System clinical trial
@@ -33,15 +123,40 @@ description: 'The dataset contains neural activity from participant T5, who gave
   "knob" area of of T5''s left hemisphere precentral gyrus. On each trial, T5 was
   prompted to copy a cued sentence by writing individual characters, separated by
   a ">" space character. Decoded letters appeared on the screen below the prompt.'
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: ClinicalTrials.gov NCT00912041
+  schemaKey: EthicsApproval
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: 'Investigational Device Exemption #G090003'
+  schemaKey: EthicsApproval
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: 'Institutional Review Boards of Stanford University (protocol #20804)'
+  schemaKey: EthicsApproval
 id: DANDI:000950/draft
 identifier: DANDI:000950
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000950/versions/draft/assets/
 name: 'FALCON Benchmark H2: Human Handwriting iBCI'
+protocol: []
+relatedResource:
+- name: 'Plug-and-Play Stability for Intracortical Brain-Computer Interfaces: A One-Year
+    Demonstration of Seamless Brain-to-Text Communication'
+  relation: dcite:Describes
+  repository: NeurIPS 2023
+  resourceType: dcite:ConferenceProceeding
+  schemaKey: Resource
+  url: https://proceedings.neurips.cc/paper_files/paper/2023/file/83a14a36de4502bac5b580db36e81858-Paper-Conference.pdf
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000950/draft
 version: draft
+wasGeneratedBy: []
