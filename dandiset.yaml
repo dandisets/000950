@@ -11,9 +11,21 @@ acknowledgement: We thank participant T5 and his caregivers for their generously
   time and effort as part of the BrainGate2 pilot clinical trial; B. Davis, K. Tsou
   and S. Kosasih for administrative support.
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 1224956736
+  numberOfFiles: 47
+  numberOfSubjects: 3
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
+    schemaKey: SpeciesType
+  variableMeasured: []
 citation: 'Fan, Chaofei; Hahn, Nick; Kamdar, Foram; Avansino, Donald; Wilson, Guy;
   Hochberg, Leigh; Shenoy, Krishna V; Henderson, Jaime; Willett, Frank (2024) FALCON
   Benchmark H2: Human Handwriting iBCI (Version draft) [Data set]. DANDI archive.
@@ -116,13 +128,10 @@ description: 'The dataset contains neural activity from participant T5, who gave
   clinical trial was approved under an Investigational Device Exemption (IDE) by the
   US Food and Drug Administration (Investigational Device Exemption #G090003). Permission
   was also granted by the Institutional Review Boards of Stanford University (protocol
-  #20804).
-
-
-  Data was recorded from two 96-channel intracortical electrode arrays in the hand
-  "knob" area of of T5''s left hemisphere precentral gyrus. On each trial, T5 was
-  prompted to copy a cued sentence by writing individual characters, separated by
-  a ">" space character. Decoded letters appeared on the screen below the prompt.'
+  #20804). Data was recorded from two 96-channel intracortical electrode arrays in
+  the hand "knob" area of of T5''s left hemisphere precentral gyrus. On each trial,
+  T5 was prompted to copy a cued sentence by writing individual characters, separated
+  by a ">" space character. Decoded letters appeared on the screen below the prompt.'
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
