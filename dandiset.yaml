@@ -27,8 +27,8 @@ assetsSummary:
   variableMeasured: []
 citation: 'Fan, Chaofei; Hahn, Nick; Kamdar, Foram; Avansino, Donald; Wilson, Guy;
   Hochberg, Leigh; Shenoy, Krishna V; Henderson, Jaime; Willett, Frank (2024) FALCON
-  Benchmark H2: Human Handwriting iBCI (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000950/draft'
+  Benchmark H2: Human Handwriting iBCI (Version 0.241029.1403) [Data set]. DANDI archive.
+  https://doi.org/10.48324/dandi.000950/0.241029.1403'
 contributor:
 - affiliation: []
   email: brianna.karpowicz@emory.edu
@@ -149,6 +149,7 @@ description: 'The dataset contains neural activity from participant T5, who gave
   if making use of this dataset for purposes outside of the FALCON Benchmark. Each
   dataset split is considered one "subject" by the DANDI repository; only data from
   one iBCI participant is included.'
+doi: 10.48324/dandi.000950/0.241029.1403
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
@@ -162,13 +163,13 @@ ethicsApproval:
     schemaKey: ContactPoint
   identifier: 'Institutional Review Boards of Stanford University (protocol #20804)'
   schemaKey: EthicsApproval
-id: DANDI:000950/draft
+id: DANDI:000950/0.241029.1403
 identifier: DANDI:000950
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000950/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000950/0.241029.1403/assets.yaml
 name: 'FALCON Benchmark H2: Human Handwriting iBCI'
 protocol: []
 publishedBy:
@@ -195,6 +196,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000950/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000950/0.241029.1403
+version: 0.241029.1403
 wasGeneratedBy: []
